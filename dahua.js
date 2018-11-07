@@ -46,7 +46,7 @@ dahua.prototype.connect = function(options) {
     var self = this;
 
     var opts = { 
-      'url' : BASEURI + '/cgi-bin/eventManager.cgi?action=attach&codes=[AlarmLocal,VideoMotion,VideoLoss,VideoBlind]',
+      'url' : BASEURI + '/cgi-bin/eventManager.cgi?action=attach&codes=[AlarmLocal,VideoMotion,VideoLoss,VideoBlind,CrossLineDetection]',
       'forever' : true,
       'headers': {'Accept':'multipart/x-mixed-replace'}
     };
